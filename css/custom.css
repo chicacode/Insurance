@@ -1,7 +1,7 @@
 body {
-    background: #e96443;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #904e95, #e96443);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #904e95, #e96443); 
+    background: rgba(248,80,50,1);
+    background: -moz-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(240,47,23,1) 65%, rgba(232,55,37,1) 95%, rgba(231,56,39,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(248,80,50,1)), color-stop(65%, rgba(240,47,23,1)), color-stop(95%, rgba(232,55,37,1)), color-stop(100%, rgba(231,56,39,1)));
 }
 .btn.btn-raised.btn-primary {
     background-color: #00838F!important;
